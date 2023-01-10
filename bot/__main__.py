@@ -26,7 +26,7 @@ from .modules import authorize, list, cancel_mirror, mirror_status, mirror_leech
                      delete, count, users_settings, search, rss, wayback, speedtest, anilist, imdb, bt_select, mediainfo, hash, \
                      scraper, pictures, save_msg, sel_cat
 
-version = "ACE-MLTB v8.1"
+version = "TG Clouds-MLTB v1.0"
 
 def progress_bar(percentage):
     p_used = config_dict['FINISHED_PROGRESS_STR']
@@ -165,7 +165,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
         else:
             sendMessage(start_string, context.bot, update.message, reply_markup)
     else:
-        text = f"🚫 Access Denied 🚫\n🚨 Updates: @ACE_ML"
+        text = f"🚫 Access Denied 🚫\n🚨 Updates: @TG_Clouds"
         if config_dict['PICS']:
             sendPhoto(text, context.bot, update.message, rchoice(config_dict['PICS']), reply_markup)
         else:
@@ -206,7 +206,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://t.me/ACE_ML'>ACE - Mirror & Leech</a></b> - The Ultimate Telegram Service which can Upload Your File & Link to Google Drive & Telegram for FREE.
+<b><a href='https://t.me/TG_Clouds'>TG Clouds</a></b> - The Ultimate Telegram Service which can Upload Your File & Link to Google Drive & Telegram for FREE.
 Choose a help category:
 '''
 
