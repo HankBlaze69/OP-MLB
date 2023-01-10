@@ -3,33 +3,33 @@
 ## Rest of variable can be setup using BOT by /bsetting command
 
 # REQUIRED CONFIG
-BOT_TOKEN = "5400874672:AAEM-zugtHxRWqtz1CBIY8TAjpz-XZ31_h4"
-OWNER_ID = "5524391658"
-TELEGRAM_API = "25545293"
-TELEGRAM_HASH = "1422c57217cb8a814e12977c3274033a"
+BOT_TOKEN = "5837165727:AAEXHz7kFeP5wPiYTAVQ3eqyZbublohuYX0"
+OWNER_ID = "1789742404"
+TELEGRAM_API = "3880549"
+TELEGRAM_HASH = "38fff7c7c50abd4eb426961bd7fdfd2e"
 
 # OPTIONAL CONFIG
-GDRIVE_ID = "10JB8VR0POlvhFpOq4w5TP_37g78nlY-i"
+GDRIVE_ID = "1z1bMTmFBjuU4ZeLMEsug3rqmFcIGBkd4"
 DOWNLOAD_DIR = "/usr/src/app/downloads"
 STATUS_UPDATE_INTERVAL = "20"                       
 AUTO_DELETE_MESSAGE_DURATION = "-1"       
 AUTO_DELETE_UPLOAD_MESSAGE_DURATION = "-1" 
-DATABASE_URL = "mongodb+srv://gt:gt@cluster0.qt4qnrj.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_URL = "mongodb+srv://mxl:mxlbot@mxlbot.8twmcpc.mongodb.net/?retryWrites=true&w=majority"
 AUTHORIZED_CHATS = ""
 SUDO_USERS = ""
 IGNORE_PENDING_REQUESTS = "True"
 IS_TEAM_DRIVE = "True"
 USE_SERVICE_ACCOUNTS = "True"
-SA_MAIL = "ace-sa@googlegroups.com"                                          # SA Email id To display in USER TD Section
-INDEX_URL = "https://new.mltb.workers.dev/0:/ACE"                                        # Not end with /
+SA_MAIL = "tg-clouds@googlegroups.com"                                          # SA Email id To display in USER TD Section
+INDEX_URL = ""                                        # Not end with /
 STATUS_LIMIT = "4"                                    # Recommended Value : 2 (If Using PICS)
 STOP_DUPLICATE = "True"
 CMD_SUFFIX = "1"
-UPTOBOX_TOKEN = "4024758e6d5a5706b23a252e73c7e73b8fig8"
+UPTOBOX_TOKEN = ""
 TORRENT_TIMEOUT = "60"
 EXTENSION_FILTER = "html srt txt url nfo"
 INCOMPLETE_TASK_NOTIFIER = "True"
-TGH_THUMB = "https://graph.org/file/fdc66713892b775740e62.png"                                        # Give Telegraph URL(graph.org) for Logs/File Thumbnail
+TGH_THUMB = ""                                        # Give Telegraph URL(graph.org) for Logs/File Thumbnail
 
 # TURN ON/OFF FUCTIONS
 LEECH_ENABLED = "True"                                    # Default is False (only use by owner/sudo) Make it True (for authorized chats)
@@ -43,7 +43,7 @@ MEDIAINFO_ENABLED = ""                                # Default is False (only u
 SET_BOT_COMMANDS = "True" 
 
 # UPDATE
-UPSTREAM_REPO = "https://Ace-Six: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@github.com/Ace-Six/ACE-1"
+UPSTREAM_REPO = "https://github.com/HankBlaze69/OP-MLB"
 UPSTREAM_BRANCH = "master"
 UPDATE_PACKAGES = "False"
 
@@ -52,14 +52,14 @@ BOT_PM = "False"                                           # If this True/False 
 FORCE_BOT_PM = "False"                                     # If this True then NO User can Enable/Disable BOT_PM by using Usetting 
 
 # LEECH
-LEECH_LOG = "-1001672038184"                                        # Must be Started with -100xxxxxxx
-LEECH_LOG_URL = "https://t.me/+mAkcBhmVytI2NWNl"                                    # Use Invite link for PUBLIC/PRIVATE Leech log 
-LEECH_LOG_INDEXING = "True"                               # Default is False make it True if you want leech file indexing in leech log channel
+LEECH_LOG = ""                                        # Must be Started with -100xxxxxxx
+LEECH_LOG_URL = ""                                    # Use Invite link for PUBLIC/PRIVATE Leech log 
+LEECH_LOG_INDEXING = ""                               # Default is False make it True if you want leech file indexing in leech log channel
 
 # MIRROR
 ENABLE_USR_TD = "True"                                    # If this TRUE then User can create its own TD Category
-MIRROR_LOGS = "-1001672038184"                                      # Must be Started with -100xxxxxxx
-MIRROR_LOG_URL = "https://t.me/+mAkcBhmVytI2NWNl"                                   # Use Invite link for PUBLIC/PRIVATE Mirror log 
+MIRROR_LOGS = ""                                      # Must be Started with -100xxxxxxx
+MIRROR_LOG_URL = ""                                   # Use Invite link for PUBLIC/PRIVATE Mirror log 
 LINK_LOGS = ""                                        # Must be Started with -100xxxxxxx
 
 # OTHERS UTILS
@@ -70,13 +70,13 @@ PAID_SERVICE = ""                                     # Default is False
 TIMEZONE = "Asia/Kolkata"                             # Checkout for Different timezone list https://bit.ly/2JtQfVI
 
 # TELEGRAPH UI (graph.org)
-TITLE_NAME = "🔆 𝗔𝗖𝗘 -"
-AUTHOR_NAME = "➳⚡️𝔗𝔥𝔢 𝔉𝔩𝔞𝔰𝔥⚡️༻"
-AUTHOR_URL = "https://t.me/Ace_ML"
-GD_INFO = "♥️ Uploaded By @Ace_ML 🎉"
+TITLE_NAME = "TG Clouds"
+AUTHOR_NAME = "SB Techy"
+AUTHOR_URL = "https://t.me/sbtechy"
+GD_INFO = "♥️ Uploaded By @TG_Clouds 🎉"
 
 # MULTI FORCE SUBSCRIBE
-FSUB_IDS = "-1001527301777"                                         # Each id Should be seperated by Space & ID must be started with -100xxxxxxx
+FSUB_IDS = ""                                         # Each id Should be seperated by Space & ID must be started with -100xxxxxxx
 
 # QBITORRENT
 BASE_URL = ""
@@ -96,37 +96,37 @@ RSS_CHAT_ID = ""                                      # Chat ID (Started with -1
 USER_SESSION_STRING = ""                              # Use it for 4GB leeching
 
 # MEGA
-MEGA_API_KEY = "b3RwlLrT"
-MEGA_EMAIL_ID = "ace.mirrorleech@gmail.com"
-MEGA_PASSWORD = "acemirror"
+MEGA_API_KEY = ""
+MEGA_EMAIL_ID = ""
+MEGA_PASSWORD = ""
 
 # SHORTENER 
-SHORTENER = "urlshortx.com"                                        # Seperate multiple shortner with space
-SHORTENER_API = "a236a4cc123d8e53c91539cf0c6d23d8a26a4617"                                    # Seperate multiple shortner API with space
+SHORTENER = ""                                        # Seperate multiple shortner with space
+SHORTENER_API = ""                                    # Seperate multiple shortner API with space
 
 # CRYPTS
 SAME_ACC_COOKIES = ""                                 # If using Different Account For Crypts set it to False (Deafult is True)
-GDTOT_CRYPT = "T3V2OWtrSFhKdUs5c0R5aTdoWXlKV1pKZEx4NWlYdXA2OHBjUFAxcjc5TT0%3D"                                      # Crypt for GDTOT
+GDTOT_CRYPT = ""                                      # Crypt for GDTOT
 HUBDRIVE_CRYPT = ""                                   # Crypt for HUBDRIVE
-KATDRIVE_CRYPT = "VTFBdk9pUWxMVm45ak10bXlmTVZNbUdFNmVLWmJJNCtqTmkyRGFjWFJmdz0%3D"                                   # Crypt for KATDRIVE
-KOLOP_CRYPT = "QzJZYjdaSDRzc2hNcExvZmMvT0ZHMU5hUXZPL2FyZ1FzMkR2eDBQUEkrbz0%3D"                                      # Crypt for KOLOP + DRIVEHUB
-DRIVEFIRE_CRYPT = "ZjBlc1FZOXRqUlZyWXZBSnYwRGM1amcrclE3VjBjNUpocXVtUXdZVXo4TT0%3D"                                  # Crypt for DRIVEFIRE
-SHAREDRIVE_PHPCKS = "f3682b792487fac2acdac037cc4465e3"                                # PHPCKS for SHAREDRIVE
-XSRF_TOKEN = "eyJpdiI6Ik5PeEkzcTh6ZENhamF0Zm1UaHRCQnc9PSIsInZhbHVlIjoiKzY1SDhqQ1wvelM4aVpoTHlRSGRmczNUR1FYXC9BWTFsc3NxUnFWbGtzcTg1QVpvZTZITGxOdWhvN1NDaFJjMTROIiwibWFjIjoiNTNjNjE1ZTY3MmJmZjczMjBkOTY1Mjc3NDAwZmQxOWE2ODViYjlhYzJhNzZlMmNmZmYxYzYxMDY0YjgwZWIyZSJ9"                                       # XSRF for SHARER.PW
-laravel_session = "eyJpdiI6IjhKb1VQMG1cLzcwRTZIVW1qYVpJK1NBPT0iLCJ2YWx1ZSI6Imx5T01FXC9WdHdoVmFiWHVWSnV1UlRlVkJBVE1TYjVuclJ0c0lzVnlnT2lLWEVPN3BjZ0kyU2N6UE9RUEZCR014IiwibWFjIjoiMzM1NGI4M2Q1ZjhkOTA0ODg2NTNjYjI4YjQ2OGQ0N2Y2Yzg4NzQ4NGIwMTRkOGQ0MDU2MjYzZDk0ZWRmYjhhZCJ9"                                  # laravel_session for SHARER.PW
+KATDRIVE_CRYPT = ""                                   # Crypt for KATDRIVE
+KOLOP_CRYPT = ""                                      # Crypt for KOLOP + DRIVEHUB
+DRIVEFIRE_CRYPT = ""                                  # Crypt for DRIVEFIRE
+SHAREDRIVE_PHPCKS = ""                                # PHPCKS for SHAREDRIVE
+XSRF_TOKEN = ""                                       # XSRF for SHARER.PW
+laravel_session = ""                                  # laravel_session for SHARER.PW
 
 # BOT LIMITS
 TOTAL_TASKS_LIMIT = "10"                                # Limit Total Max Task At a time (int value)
 USER_TASKS_LIMIT = ""                                 # Limit User Max Task At a time (int value)
 DAILY_TASK_LIMIT = ""                                 # Max task a user can do in one day (int value)
 STORAGE_THRESHOLD = ""                                # Free Space that must be left in bot (int value without GB/MB)
-TORRENT_DIRECT_LIMIT = "10"                             # Limit the size of torrent download (int value without GB/MB)
-ZIP_UNZIP_LIMIT = "10"                                  # Limit the size of Zip/Unzip (int value without GB/MB)
-CLONE_LIMIT = "100"                                      # Limit the size of Clone (int value without GB/MB)
-LEECH_LIMIT = "10"                                      # Limit the size of Leech (int value without GB/MB)
-YTDLP_LIMIT = "10"                                      # Limit the size of ytdlp download (int value without GB/MB)
-MAX_PLAYLIST = "10"                                     # Limit number of files for ytdlp playlist in leech (int value)
-MEGA_LIMIT = "5"                                       # Limit the size of MEGA links (int value without GB/MB)
+TORRENT_DIRECT_LIMIT = ""                             # Limit the size of torrent download (int value without GB/MB)
+ZIP_UNZIP_LIMIT = ""                                  # Limit the size of Zip/Unzip (int value without GB/MB)
+CLONE_LIMIT = ""                                      # Limit the size of Clone (int value without GB/MB)
+LEECH_LIMIT = ""                                      # Limit the size of Leech (int value without GB/MB)
+YTDLP_LIMIT = ""                                      # Limit the size of ytdlp download (int value without GB/MB)
+MAX_PLAYLIST = ""                                     # Limit number of files for ytdlp playlist in leech (int value)
+MEGA_LIMIT = ""                                       # Limit the size of MEGA links (int value without GB/MB)
 DAILY_MIRROR_LIMIT = ""                               # Max size upto which user can Mirror in one day (int value without GB/MB)
 DAILY_LEECH_LIMIT = ""                                # Max size upto which user can Leech in one day (int value without GB/MB)
 TIME_GAP = "-1"                                       # Restrict User for accepting the consecutive link at a time (int value in seconds, -1 means no restriction) 
@@ -144,7 +144,7 @@ SHOW_LIMITS_IN_STATS = "True"                             #Default is false
 LIST_MODE = "Telegraph"                                        # List/Seach Result in Telegraph/HTML/Tg_Direct (Default is Telegraph)
 
 # BRANDING
-CREDIT_NAME = "➳⚡️𝔗𝔥𝔢 𝔉𝔩𝔞𝔰𝔥⚡️༻ | @Ace_ML 🎉" 
+CREDIT_NAME = "SB Techy | @TG_Clouds 🎉" 
 
 # DYNAMIC IMAGES
 PICS = ""                                             # Add multiple telgraph image links that are seperated by spaces
@@ -169,15 +169,15 @@ DISABLE_DRIVE_LINK = "False"
 VIEW_LINK = "False"
 SOURCE_LINK = "True"
 START_BTN1_NAME = "👑 Owner 👑"
-START_BTN1_URL = "https://t.me/AceContactBot"
-START_BTN2_NAME = "🛠 ACE Updates 🇮🇳"
-START_BTN2_URL = "https://t.me/Ace_ML"
+START_BTN1_URL = "https://t.me/sbtechy"
+START_BTN2_NAME = "🛠 TG Clouds Updates 🇮🇳"
+START_BTN2_URL = "https://t.me/TGCloudUpdates"
 BUTTON_FOUR_NAME = "🔐 GDrive Access"
-BUTTON_FOUR_URL = "https://t.me/Ace_ML/20"
-BUTTON_FIVE_NAME = "🗂️ 𝖠𝖢𝖤 𝖴𝗉𝗅𝗈𝖺𝖽𝗌"
-BUTTON_FIVE_URL = "https://t.me/+mAkcBhmVytI2NWNl"
+BUTTON_FOUR_URL = "https://t.me/"
+BUTTON_FIVE_NAME = "🗂️ 𝖴𝗉𝗅𝗈𝖺𝖽𝗌"
+BUTTON_FIVE_URL = ""
 BUTTON_SIX_NAME = "⏳ Skip Ads"
-BUTTON_SIX_URL = "https://t.me/Ace_ML/243"
+BUTTON_SIX_URL = ""
 
 # TORRENT SEARCH 
 SEARCH_API_LINK = ""
@@ -267,3 +267,4 @@ HASH_COMMAND = ""           #Default is "hash"
 WAYBACK_COMMAND = ""        #Default is "wayback"
 BOT_SETTING = ""            #Default is "bsetting"
 USERSET_COMMAND = ""        #Default is "usetting"
+
