@@ -18,15 +18,15 @@ from bot.helper.ext_utils.db_handler import DbManger
 from bot.helper.ext_utils.bot_utils import update_user_ldata, is_paid, is_sudo, get_readable_file_size, getUserTDs, getdailytasks
 
 handler_dict = {}
-example_dict = {'prefix':'<code>@ACE_ML or Anything</code>\n\n<b>ℹ More Info:</b> <code>#prefix</code>', 
-                'mprefix':'<code>@ACE_ML or Anything</code>\n\n<b>ℹ More Info:</b> <code>#prefix</code>', 
-                'suffix':'<code>~ ACE</code>\n2. <code>~ @ACE_ML</code>\n\n<b>ℹ More Info:</b> <code>#suffix</code>', 
-                'msuffix':'<code>~ ACE</code>\n2. <code>~ @ACE_ML</code>\n\n<b>ℹ More Info:</b> <code>#suffix</code>', 
-                'caption': ''+escape("<b>{filename}</b>\nJoin Now : @ACE_ML")+'\nCheck all available fillings options <a href="">HERE</a> and Make Custom Caption.\n\n<b>ℹ More Info:</b> <code>#caption</code>', 
+example_dict = {'prefix':'<code>@TG_Clouds or Anything</code>\n\n<b>ℹ More Info:</b> <code>#prefix</code>', 
+                'mprefix':'<code>@TG_Clouds or Anything</code>\n\n<b>ℹ More Info:</b> <code>#prefix</code>', 
+                'suffix':'<code>~ TG Clouds</code>\n2. <code>~ @TG_Clouds</code>\n\n<b>ℹ More Info:</b> <code>#suffix</code>', 
+                'msuffix':'<code>~ TG Clouds</code>\n2. <code>~ @TG_Clouds</code>\n\n<b>ℹ More Info:</b> <code>#suffix</code>', 
+                'caption': ''+escape("<b>{filename}</b>\nJoin Now : @TG_Clouds")+'\nCheck all available fillings options <a href="">HERE</a> and Make Custom Caption.\n\n<b>ℹ More Info:</b> <code>#caption</code>', 
                 'userlog':'<code>-100xxxxxx or Channel ID</code>\n\n<b>ℹ More Info:</b> <code>#userlog</code>', 
                 'usertd':'<code>UserTD_Name 1TSYgS-88SkhkSuoS-KHSi7%^&s9HKj https://1.xyz.workers.dev/0:/Leecher</code>\n<b> Do not forget to add '+config_dict['SA_MAIL']+' to your TD as Content Manager</b>\n\n<b>ℹ More Info:</b> <code>#usertd</code>',
-                'remname':'<b>Syntax:</b> previousname:newname:times|previousname:newname:times\n\nFork:Star|Here:Now:1|ACE\n\n<b>Output :</b> Star Now : Click Here.txt\n\n<b>ℹ More Info:</b> <code>#remname</code>', 
-                'mremname':'<b>Syntax:</b> previousname:newname:times|previousname:newname:times\n\nFork:Star|Here:Now:1|ACE\n\n<b>Output :</b> Star Now : Click Here.txt\n\n<b>ℹ More Info:</b> <code>#remname</code>', 
+                'remname':'<b>Syntax:</b> previousname:newname:times|previousname:newname:times\n\nFork:Star|Here:Now:1|TG Clouds\n\n<b>Output :</b> Star Now : Click Here.txt\n\n<b>ℹ More Info:</b> <code>#remname</code>', 
+                'mremname':'<b>Syntax:</b> previousname:newname:times|previousname:newname:times\n\nFork:Star|Here:Now:1|TG Clouds\n\n<b>Output :</b> Star Now : Click Here.txt\n\n<b>ℹ More Info:</b> <code>#remname</code>', 
                 'imdb_temp':'Check all available fillings options <a href="">HERE</a> and Make Custom Template.\n\n<b>ℹ More Info:</b> <code>#imdb</code>', 
                 'ani_temp':'Check all available fillings options <a href="">HERE</a> and Make Custom AniList Template.\n\n<b>ℹ More Info:</b> <code>#anilist</code>',
                 'split_size':'In Normal Data Values like 2GB, 1GB, 500mB, 1.5 Gb\nNote: When Specific Data Type Given given like kb, gb, Only Mention in 2 Letters\n\n<b>ℹ More Info:</b> <code>#leech-split-size</code>',
